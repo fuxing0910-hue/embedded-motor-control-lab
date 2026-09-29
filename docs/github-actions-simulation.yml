@@ -1,0 +1,23 @@
+name: Motor simulation
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install plotting dependency
+        run: python -m pip install -r requirements-demo.txt
+      - name: Compile, test, and generate simulation reports
+        run: python lab/run_demo.py

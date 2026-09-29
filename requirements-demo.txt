@@ -1,0 +1,2 @@
+# Needed only for plots and the standalone HTML report.
+matplotlib>=3.6,<4
