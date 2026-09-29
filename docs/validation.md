@@ -15,7 +15,7 @@ python lab/run_demo.py
 - `step`、`load`、`saturation` 三个场景均完成 12 s 模拟，各生成 1201 条数据记录。
 - 四张 PNG 曲线及独立 HTML 报告正常生成。
 
-报告包含每组实验的完整曲线，以及根据 CSV 计算的误差指标。`report.html` 内嵌图像，可以下载后直接打开；发布附件中的 CSV 是该报告对应的数据。
+报告包含每组实验的完整曲线，以及根据 CSV 计算的误差指标。`docs/report.html` 内嵌图像，可以下载后直接打开；`docs/simulation-data.zip` 中的 CSV 是该报告对应的数据。
 
 ## 验证范围
 
