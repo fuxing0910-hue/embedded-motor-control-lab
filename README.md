@@ -8,6 +8,8 @@
 
 ## 演示
 
+不安装开发环境也能查看结果：到 [v0.1.0 发布页](https://github.com/fuxing0910-hue/embedded-motor-control-lab/releases/tag/v0.1.0) 下载 `report.html`，用浏览器打开；`simulation-data.zip` 提供这次运行的三组 CSV。复现记录见 [验证说明](docs/validation.md)。
+
 运行后生成三组转速与控制输出曲线：
 
 ![PID 电机仿真曲线](docs/demo.png)
